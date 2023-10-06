@@ -3,7 +3,8 @@
 * main - Entry point
 *
 * Description: This is a C script that uses prints function
-* to print the size of various types on the computer is compiled and run on to the standard output.
+* to print the size of various types on the computer is 
+* compiled and run on to the standard output.
 *
 * Return: Always 0 (Success)
 */
