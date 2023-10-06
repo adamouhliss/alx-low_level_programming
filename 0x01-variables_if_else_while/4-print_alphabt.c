@@ -1,18 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - assigns alphabet from a to z
- * it executes, and prints it
+ * main - prints the alphabet in lowercase,
+ * followed by a new line, except q and e
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char ch;
-
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(ch);
+		if (ch != 'e' && ch != 'q')
+		{
+			putchar(ch);
+		}
 	}
 	putchar('\n');
 	return (0);
 }
+
